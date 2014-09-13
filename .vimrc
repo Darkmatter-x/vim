@@ -3,7 +3,6 @@ set fileencoding=utf-8                                "设置字符编码
 set fileencodings=ucs-bom,utf-8,gbk,cp936,latin-1     "设置字符编码
 set fileformat=unix                                   "设置字符编码
 set fileformats=unix,dos,mac                          "设置字符编码
-set guifont=Courier\ 10\ Pitch\ 10                    "设置字体 
 colorscheme github                                    "配置颜色 
 syntax on	                                          "语法高亮		
 set nu						                          "显示行号
@@ -24,6 +23,7 @@ set t_Co=256                                          "设置颜色
 
 
 autocmd! bufwritepost $HOME/.vimrc source %           "自动生效配置
+set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 10           "设置字体 
 
 
 ">>>基础设置结束============================================================
